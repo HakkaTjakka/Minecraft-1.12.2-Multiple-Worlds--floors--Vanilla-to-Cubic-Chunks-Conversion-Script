@@ -143,6 +143,6 @@ Build The Earth project automated:
 	  Unclear if the resuling voxelized Google 3d to Minecraft 1.12.2 can be used as display in BTE 
 	  because of copyright (Terms Of Service).
 
-	  So result needs to be edited. This whole tool is assistant to that. Exept automated from Google 
+	  So result needs to be edited. This whole tool is assistant to that. Except automated from Google 
 	  3d to BTE 121 goes with millions of blocks per second. No builder can beat that with his/her 
 	  pointing finger and mouse.... Just try it.
