@@ -39,7 +39,7 @@ Dir: 	RESULT1 - RESULT4 :
 Dir: 	RESULT5 :
 
 		- Resulting Cubic World with floor 0 bottom at 0 (Last one, needs not to be shifted when using 
-TEST_FASTEST.BAT)
+		  TEST_FASTEST.BAT)
 
 
 
@@ -70,13 +70,13 @@ File:	TEST_FASTEST.BAT :
 		- Converts TEST0 (ground 0) and merges to RESULT5 (final)
 
 		- TEST0 base world is last because its assumed largest. (Needs not to be shifted when using 
-this order for 5 floors)
+		  this order for 5 floors)
 
 		- Injected vanilla 1.12.2 world is placed at 0-255 in cubic chunks format, THEN! shifted with 
-second command.
+		  second command.
 
 		  (Both doesn't work in one convertion run. relocatingConfig.txt is only used when converting 
-Cubic Chunks -> Cubic Chunks (Relocating)).
+		  Cubic Chunks -> Cubic Chunks (Relocating)).
 
 File: 	- relocatingConfig.txt :
 
@@ -89,7 +89,7 @@ Dir:	div/mods :
 		div/data :
 
 		- Some recursive command block floodfill functions 1.12 (also replace specific block with 
-command block with command included) and/or 1.13+
+		  command block with command included) and/or 1.13+
 
 		
 
@@ -105,12 +105,11 @@ command block with command included) and/or 1.13+
 
 
 
-(MinecraftWorldEditor: c/c++ fokking fast 3d Wavefront .obj/.mtl/textures to Minecraft 1.12.2 
-voxelizer) :
+(MinecraftWorldEditor: c/c++ fokking fast 3d Wavefront .obj/.mtl/textures to Minecraft 1.12.2 voxelizer) :
 
 	- Includes multi threaded textures loader, compressed .nbt 3d data, voxelizer, Google 3d 
-downloader, poster generator, .mca/.nbt reader/writer/editor, large canvas, and much more (c/c++ 
-source code, experimental prototyping machine)
+	  downloader, poster generator, .mca/.nbt reader/writer/editor, large canvas, and much more (c/c++ 
+	  source code, experimental prototyping machine)
 
 	- https://github.com/HakkaTjakka/MinecraftWorldEditor
 
@@ -120,8 +119,7 @@ source code, experimental prototyping machine)
 
 	
 
-(Google 3d maps wavefront 3d format downloader, also included in MinecraftWorldEditor for bulk 
-downloading)	
+(Google 3d maps wavefront 3d format downloader, also included in MinecraftWorldEditor for bulk downloading)	
 
 	- https://github.com/retroplasma/earth-reverse-engineering	
 
@@ -132,19 +130,19 @@ Build The Earth project automated:
 	- Download with the EARTH Javascript whole cities / areas from Google 3d Maps/Earth server in bulk.
 
 	- Convert downloaded data with dos/linux shell scripts, convert and intergrate data with Minecraft 
-World Editor.
+	  World Editor.
 
 	- Voxelize 3d Wavefront data from Google 3d and convert to Minecraft 1.12.2 world(s) (floors) to 
-BTE scale / coordinates (tpll).
+	  BTE scale / coordinates (tpll).
 
 	- Convert several layers of voxelized data into one Cubic Chunks format.
 
 	- The resulting Minecraft Cubic Chunks format can be used as a MOLD for BTE 121 project. (TOS 
-Google 3d)
+	  Google 3d)
 
 	  Unclear if the resuling voxelized Google 3d to Minecraft 1.12.2 can be used as display in BTE 
-because of copyright (Terms Of Service).
+	  because of copyright (Terms Of Service).
 
 	  So result needs to be edited. This whole tool is assistant to that. Exept automated from Google 
-3d to BTE 121 goes with millions of blocks per second. No builder can beat that with his/her 
-pointing finger and mouse.... Just try it.
+	  3d to BTE 121 goes with millions of blocks per second. No builder can beat that with his/her 
+	  pointing finger and mouse.... Just try it.
